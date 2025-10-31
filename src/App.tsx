@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import Dashboard from './components/Dashboard'
 import Auth from './components/Auth'
-import AuthComponent from './components/AuthComponent'
-import CalculatorComponent from './components/CalculatorComponent'
+import Calculator from './components/Calculator'
+import CollaborationPanel from './components/CollaborationPanel'
 import AnalyticsDashboard from './components/AnalyticsDashboard'
-import HistoryPanel from './components/HistoryPanel'
-import CustomizationSettings from './components/CustomizationSettings'
+import HistoryList from './components/HistoryList'
+import Settings from './components/Settings'
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false)
@@ -23,7 +23,7 @@ function App() {
       <header className="app-header">
         <div className="header-content">
           <h1>CalcPlus</h1>
-          <p className="tagline">Redefining Digital Calculations</p>
+          <p className="tagline">Revolutionary Calculations at Your Fingertips</p>
         </div>
         {isAuthenticated && (
           <button onClick={handleLogout} className="btn-logout">
@@ -44,12 +44,12 @@ function App() {
         <div className="features">
           <h3>Key Features:</h3>
           <ul>
-          <li>User Authentication & Onboarding</li>
-          <li>Basic Arithmetic Operations</li>
-          <li>Advanced Scientific Calculations</li>
-          <li>Real-Time Collaborative Calculations</li>
-          <li>Data Visualization & Analytics Tools</li>
-          <li>Customizable User Interface</li>
+          <li>Advanced Calculations</li>
+          <li>Collaboration Tools</li>
+          <li>Graphical Data Analytics</li>
+          <li>Customizable Interface</li>
+          <li>History and Favorites Management</li>
+          <li>Interactive Tutorials and Help</li>
           </ul>
         </div>
         <p>&copy; 2025 CalcPlus. Built with React + TypeScript + Vite</p>
