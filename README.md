@@ -4,12 +4,12 @@ CalcPlus - Built with React + TypeScript + Vite
 
 ## Features
 
-- User Authentication & Onboarding
-- Basic Arithmetic Operations
-- Advanced Scientific Calculations
-- Real-Time Collaborative Calculations
-- Data Visualization & Analytics Tools
-- Customizable User Interface
+- Advanced Calculations
+- Collaboration Tools
+- Graphical Data Analytics
+- Customizable Interface
+- History and Favorites Management
+- Interactive Tutorials and Help
 
 ## Tech Stack
 
